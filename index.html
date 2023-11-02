@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Coinhub.com</title>
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://code.jquery.com/jquery-3.7.1.min.js"
+      integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div class="container">
+      <nav>
+        <img src="./images//logo.png" alt="logo" class="logo" />
+
+        <div id="navbar">
+          <ul>
+            <li><a href="#">Market</a></li>
+            <li><a href="#">Features</a></li>
+            <li><a href="#">White Papers</a></li>
+            <li><a href="#">Stake</a></li>
+            <li><a href="#">About Us</a></li>
+          </ul>
+        </div>
+
+        <button class="btn">EN</button>
+        <div class="menuicon">
+          <img src="./images/R.jpg" alt="icon" id="open" onclick="opentab()" />
+        </div>
+      </nav>
+
+      <section class="market">
+        <h1>BUY & <br />SELL <span>Crypto</span></h1>
+        <p>
+          World's biggest Cryptocurrency exchange available on web as well as
+          mobile phone
+        </p>
+        <button class="btn">Explore More</button>
+      </section>
+
+      <section class="currentprice">
+        <div class="price">
+          <img src="./images/bitcoin.png" alt="icon" />
+          <div>
+            <p>$<span id="bitcoin"></span></p>
+            <h3>Bitcoin</h3>
+          </div>
+        </div>
+        <div class="price">
+          <img src="./images/ethereum.png" alt="icon" />
+          <div>
+            <p>$<span id="ethereum"></span></p>
+            <h3>Ethereum</h3>
+          </div>
+        </div>
+        <div class="price">
+          <img src="./images/dogecoin.png" alt="icon" />
+          <div>
+            <p>$<span id="dogecoin"></span></p>
+            <h3>Dogecoin</h3>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
